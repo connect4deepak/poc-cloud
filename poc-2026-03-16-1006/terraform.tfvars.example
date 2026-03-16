@@ -1,0 +1,35 @@
+aws_region = "us-west-2"
+
+vpc_cidr = "10.0.0.0/16"
+
+ec2_ami = "ami-0c94855ba95c71c99"
+
+ecc2_type = "t2.micro"
+
+rds_storage = 20
+
+rds_engine = "postgres"
+
+rds_version = "12.5"
+
+rds_type = "db.t2.micro"
+
+rds_name = "mydb"
+
+rds_username = "myuser"
+
+rds_password = "mypassword"
+
+s3_bucket_name = "mybucket"
+
+s3_acl = "private"
+
+security_group_name = "mysecuritygroup"
+
+security_group_description = "My security group"
+
+subnet_cidr = "10.0.1.0/24"
+
+subnet_az = "us-west-2a"
+
+db_subnet_group_name = "mydbsubnetgroup"
