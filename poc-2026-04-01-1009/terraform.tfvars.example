@@ -1,0 +1,27 @@
+region = "us-west-2"
+
+vpc_cidr = "10.0.0.0/16"
+
+subnet_cidr = "10.0.1.0/24"
+
+availability_zone = "us-west-2a"
+
+ami = "ami-0c94855ba95c71c99"
+
+instance_type = "t2.micro"
+
+rds_allocated_storage = 20
+
+rds_engine = "postgres"
+
+rds_engine_version = "13.4"
+
+rds_instance_class = "db.t2.micro"
+
+rds_name = "mydb"
+
+rds_username = "myuser"
+
+rds_password = "mypassword"
+
+s3_bucket_name = "my-bucket"
